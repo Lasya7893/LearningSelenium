@@ -1,53 +1,62 @@
 This repository contains my hands-on learning journey with Selenium 4.x Web Automation. I’ll be implementing each concept from [TheTestingAcademy - Selenium 4.x Notes by Pramod] and documenting my progress step by step.
 
-📘 Topics Covered
+**📘 Topics Covered**
 Based on the notes, this repo will include implementations for:
 
-Getting Started with Selenium
+1.Getting Started with Selenium
 
 Setting up Java, Maven & IntelliJ/Eclipse
 Running the first Selenium script
 WebDriver architecture & browser drivers
-Locators & Web Elements
+
+2.Locators & Web Elements
 
 findElement vs findElements
 XPath (Absolute, Relative, Functions, Axes)
 CSS Selectors
 Handling forms, text fields, checkboxes, radio buttons
-Selenium Waits ⏳
+
+3.Selenium Waits ⏳
 
 Implicit Wait
 Explicit Wait (ExpectedConditions)
 Fluent Wait
-Advanced User Interactions
+
+4.Advanced User Interactions
 
 Actions class (keyboard & mouse events)
 Handling Alerts, Windows, and iFrames
 File Upload & Download automation
-Working with Web Data
+
+5.Working with Web Data
 
 Web Tables (Static & Dynamic)
 SVG & Shadow DOM handling
-Test Automation Frameworks
+
+6.Test Automation Frameworks
 
 TestNG integration
 Allure Reporting
 Page Object Model (POM) & Page Factory
-Data-Driven Testing
+
+7.Data-Driven Testing
 
 Apache POI for Excel integration
 Property Reader utility
-Selenium Grid & Parallel Execution
+
+8.Selenium Grid & Parallel Execution
 
 Grid setup & usage
 Running tests on Docker & BrowserStack
-Miscellaneous
+
+9.Miscellaneous
 
 JavaScript Executor
 Handling Dynamic Elements
 Logging with Log4j
 Jenkins CI/CD basics
-🛠 Tech Stack
+
+**🛠 Tech Stack**
 Java 11+
 Maven
 Selenium 4.x
@@ -56,7 +65,8 @@ Allure Reports
 Apache POI
 Log4j
 Jenkins (for CI/CD)
-📂 Repository Structure
+
+**📂 Repository Structure**
 selenium-4x-learning/
 │── src/
 │   ├── main/java/   # Utility & Framework Code
@@ -64,21 +74,26 @@ selenium-4x-learning/
 │
 │── pom.xml          # Maven dependencies
 │── README.md        # This file
-🚀 How to Run
-Clone the repository:
+
+**🚀 How to Run**
+1.Clone the repository:
 
 git clone https://github.com/your-username/selenium-4x-learning.git
 cd selenium-4x-learning
-Install dependencies:
+
+2.Install dependencies:
 
 mvn clean install
-Run tests:
+
+3.Run tests:
 
 mvn test
-Generate Allure Report:
+
+4.Generate Allure Report:
 
 allure serve target/allure-results
-📌 Progress Tracker
+
+**📌 Progress Tracker**
  Run first Selenium script
  Implement all Locators
  Add Waits (Implicit/Explicit/Fluent)
@@ -88,10 +103,9 @@ allure serve target/allure-results
  Add Apache POI for Data-Driven Testing
  Setup Selenium Grid & Docker
  Integrate with Jenkins
-✨ Author
+
+**✨ Author**
 👤 Lasya Chaganti
 
-LinkedIn
-TheTestingAcademy
-Blog
+
 👉 This repository is purely for learning & practice purposes.
