@@ -1,6 +1,7 @@
 This repository contains my hands-on learning journey with Selenium 4.x Web Automation. I’ll be implementing each concept from [TheTestingAcademy - Selenium 4.x Notes by Pramod] and documenting my progress step by step.
 
 **📘 Topics Covered**
+
 Based on the notes, this repo will include implementations for:
 
 1.Getting Started with Selenium
@@ -57,6 +58,7 @@ Logging with Log4j
 Jenkins CI/CD basics
 
 **🛠 Tech Stack**
+
 Java 11+
 Maven
 Selenium 4.x
@@ -67,6 +69,7 @@ Log4j
 Jenkins (for CI/CD)
 
 **📂 Repository Structure**
+
 selenium-4x-learning/
 │── src/
 │   ├── main/java/   # Utility & Framework Code
@@ -76,6 +79,7 @@ selenium-4x-learning/
 │── README.md        # This file
 
 **🚀 How to Run**
+
 1.Clone the repository:
 
 git clone https://github.com/your-username/selenium-4x-learning.git
@@ -94,6 +98,7 @@ mvn test
 allure serve target/allure-results
 
 **📌 Progress Tracker**
+
  Run first Selenium script
  Implement all Locators
  Add Waits (Implicit/Explicit/Fluent)
